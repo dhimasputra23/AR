@@ -5,7 +5,7 @@
           
         <form class="login" action="<?php echo base_url('web/aksi_login'); ?>" method="post" >
           <div class="col-md-10 col-md-offset-1 animate-box"><br><br>
-            <h2><center>Login</center></h2><hr><hr><br>
+            <h2><center>Login Admin</center></h2><hr><hr><br>
             <?php //echo form_open_multipart('web/aksi_login')?>
              <h>Masukkan Username sesuai yang diberikan Sistem untuk keamanan</h><br><br>
               <div class="row form-group">
