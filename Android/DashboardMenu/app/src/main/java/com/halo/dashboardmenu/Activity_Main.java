@@ -16,23 +16,23 @@ public class Activity_Main extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        rellay_timeline = findViewById(R.id.rellay_timeline);
+        //rellay_timeline = findViewById(R.id.rellay_timeline);
         rellay_friends = findViewById(R.id.rellay_friends);
         rellay_chat = findViewById(R.id.rellay_chat);
-        rellay_music = findViewById(R.id.rellay_music);
+        //rellay_music = findViewById(R.id.rellay_music);
         rellay_gallery = findViewById(R.id.rellay_gallery);
         rellay_map = findViewById(R.id.rellay_map);
         rellay_weather = findViewById(R.id.rellay_weather);
         rellay_settings = findViewById(R.id.rellay_settings);
 
-        rellay_timeline.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(Activity_Main.this, Activity_Timeline.class);
-                intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
-                startActivity(intent);
-            }
-        });
+        //rellay_timeline.setOnClickListener(new View.OnClickListener() {
+        //    @Override
+        //    public void onClick(View view) {
+        //        Intent intent = new Intent(Activity_Main.this, Activity_Timeline.class);
+        //        intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+        //        startActivity(intent);
+        //    }
+        //});
 
         rellay_friends.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -50,14 +50,14 @@ public class Activity_Main extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        rellay_music.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(Activity_Main.this, Activity_Music.class);
-                intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
-                startActivity(intent);
-            }
-        });
+        //rellay_music.setOnClickListener(new View.OnClickListener() {
+        //    @Override
+        //    public void onClick(View view) {
+        //        Intent intent = new Intent(Activity_Main.this, Activity_Music.class);
+        //        intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+        //        startActivity(intent);
+        //    }
+        //});
         rellay_gallery.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
