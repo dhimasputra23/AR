@@ -26,11 +26,11 @@
 
 
                 <RelativeLayout
-                    android:id="@+id/rellay_friends"
+                    android:id="@+id/kpr"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="0.55"
-                    android:background="@color/yellow"
+                    android:background="@color/blue"
                     android:clickable="true"
                     android:foreground="?attr/selectableItemBackground">
 
@@ -55,9 +55,9 @@
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/imgView2"
                             android:layout_centerHorizontal="true"
-                            android:text="Friends List"
                             android:layout_marginTop="5dp"
-                            android:textSize="14sp" />
+                            android:text="Simulasi KPR"
+                            android:textSize="24sp" />
 
                     </RelativeLayout>
 
@@ -79,7 +79,7 @@
                 android:layout_weight="1">
 
                 <RelativeLayout
-                    android:id="@+id/rellay_gallery"
+                    android:id="@+id/rumah"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="0.33"
@@ -108,16 +108,16 @@
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/imgView5"
                             android:layout_centerHorizontal="true"
-                            android:text="Gallery"
                             android:layout_marginTop="5dp"
-                            android:textSize="14sp" />
+                            android:text="Rumah"
+                            android:textSize="24sp" />
 
                     </RelativeLayout>
 
                 </RelativeLayout>
 
                 <RelativeLayout
-                    android:id="@+id/rellay_map"
+                    android:id="@+id/fasilitas"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="0.33"
@@ -146,9 +146,9 @@
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/imgView6"
                             android:layout_centerHorizontal="true"
-                            android:text="Map"
                             android:layout_marginTop="5dp"
-                            android:textSize="14sp" />
+                            android:text="Fasilitas"
+                            android:textSize="24sp" />
 
                     </RelativeLayout>
 
@@ -157,11 +157,11 @@
                 </RelativeLayout>
 
                 <RelativeLayout
-                    android:id="@+id/rellay_settings"
+                    android:id="@+id/web"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="0.33"
-                    android:background="@color/violet"
+                    android:background="@color/blue"
                     android:clickable="true"
                     android:foreground="?attr/selectableItemBackground">
 
@@ -186,9 +186,9 @@
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/imgView8"
                             android:layout_centerHorizontal="true"
-                            android:text="Settings"
                             android:layout_marginTop="5dp"
-                            android:textSize="14sp" />
+                            android:text="Website"
+                            android:textSize="24sp" />
 
                     </RelativeLayout>
 
@@ -203,11 +203,11 @@
                 android:layout_weight="1">
 
                 <RelativeLayout
-                    android:id="@+id/rellay_weather"
+                    android:id="@+id/shareapp"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="0.50"
-                    android:background="@color/darkviolet"
+                    android:background="@color/blue"
                     android:clickable="true"
                     android:foreground="?attr/selectableItemBackground">
 
@@ -232,20 +232,20 @@
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/imgView7"
                             android:layout_centerHorizontal="true"
-                            android:text="Weather"
                             android:layout_marginTop="5dp"
-                            android:textSize="14sp" />
+                            android:text="Share Aplikasi"
+                            android:textSize="24sp" />
 
                     </RelativeLayout>
 
                 </RelativeLayout>
 
                 <RelativeLayout
-                    android:id="@+id/rellay_chat"
+                    android:id="@+id/kontak"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="0.55"
-                    android:background="@color/lime"
+                    android:background="@color/darkblue"
                     android:clickable="true"
                     android:foreground="?attr/selectableItemBackground">
 
@@ -271,8 +271,8 @@
                             android:layout_below="@+id/imgView3"
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="5dp"
-                            android:text="Chat"
-                            android:textSize="14sp" />
+                            android:text="Kontak"
+                            android:textSize="24sp" />
 
                     </RelativeLayout>
 

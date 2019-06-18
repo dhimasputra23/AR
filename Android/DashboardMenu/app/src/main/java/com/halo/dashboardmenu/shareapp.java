@@ -3,11 +3,11 @@ package com.halo.dashboardmenu;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Activity_Timeline extends AppCompatActivity {
+public class shareapp extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_timeline);
+        setContentView(R.layout.shareapp);
     }
 }

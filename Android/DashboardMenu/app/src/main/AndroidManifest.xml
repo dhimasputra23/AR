@@ -24,27 +24,22 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Activity_Timeline"
-            android:theme="@style/ThemeTimeline" />
-        <activity
-            android:name=".Activity_Chat"
+            android:name=".kontak"
             android:theme="@style/ThemeChat" />
         <activity
-            android:name=".Activity_Music"
-            android:theme="@style/ThemeMusic" />
-        <activity
-            android:name=".Activity_Gallery"
+            android:name=".rumah"
             android:theme="@style/ThemeGallery" />
         <activity
-            android:name=".Activity_Map"
+            android:name=".fasilitas"
             android:theme="@style/ThemeMap" />
         <activity
-            android:name=".Activity_Weather"
+            android:name=".shareapp"
             android:theme="@style/ThemeWeather" />
         <activity
-            android:name=".Activity_Settings"
+            android:name=".web"
             android:theme="@style/ThemeSettings" />
-        <activity android:name=".Activity_Friends"
+        <activity
+            android:name=".kpr"
             android:theme="@style/ThemeFriends"></activity>
     </application>
 

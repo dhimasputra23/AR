@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.halo.dashboardmenu.Activity_Map">
+    tools:context="com.halo.dashboardmenu.rumah">
 
 </android.support.constraint.ConstraintLayout>
