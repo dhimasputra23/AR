@@ -141,8 +141,8 @@
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/imgView3"
                             android:layout_centerHorizontal="true"
-                            android:text="Chat"
                             android:layout_marginTop="5dp"
+                            android:text="Chat"
                             android:textSize="14sp" />
 
                     </RelativeLayout>
@@ -199,7 +199,7 @@
                     android:id="@+id/rellay_gallery"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="0.65"
+                    android:layout_weight="0.33"
                     android:background="@color/blue"
                     android:clickable="true"
                     android:foreground="?attr/selectableItemBackground">
@@ -237,7 +237,7 @@
                     android:id="@+id/rellay_map"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="0.55"
+                    android:layout_weight="0.33"
                     android:background="@color/darkblue"
                     android:clickable="true"
                     android:foreground="?attr/selectableItemBackground">
@@ -269,6 +269,46 @@
 
                     </RelativeLayout>
 
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rellay_settings"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.33"
+                    android:background="@color/violet"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true">
+
+                        <ImageView
+                            android:id="@+id/imgView8"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_centerHorizontal="true"
+                            android:adjustViewBounds="true"
+                            android:padding="8dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_settings"
+                            android:tint="@color/white" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imgView8"
+                            android:layout_centerHorizontal="true"
+                            android:text="Settings"
+                            android:layout_marginTop="5dp"
+                            android:textSize="14sp" />
+
+                    </RelativeLayout>
+
                 </RelativeLayout>
 
             </LinearLayout>
@@ -283,7 +323,7 @@
                     android:id="@+id/rellay_weather"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="0.55"
+                    android:layout_weight="0.50"
                     android:background="@color/darkviolet"
                     android:clickable="true"
                     android:foreground="?attr/selectableItemBackground">
@@ -318,11 +358,11 @@
                 </RelativeLayout>
 
                 <RelativeLayout
-                    android:id="@+id/rellay_settings"
+                    android:id="@+id/rellay_chat"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="0.65"
-                    android:background="@color/violet"
+                    android:layout_weight="0.55"
+                    android:background="@color/lime"
                     android:clickable="true"
                     android:foreground="?attr/selectableItemBackground">
 
@@ -332,23 +372,23 @@
                         android:layout_centerInParent="true">
 
                         <ImageView
-                            android:id="@+id/imgView8"
+                            android:id="@+id/imgView3"
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:layout_centerHorizontal="true"
                             android:adjustViewBounds="true"
                             android:padding="8dp"
                             android:scaleType="centerInside"
-                            android:src="@drawable/ic_settings"
+                            android:src="@drawable/ic_chat"
                             android:tint="@color/white" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_below="@+id/imgView8"
+                            android:layout_below="@+id/imgView3"
                             android:layout_centerHorizontal="true"
-                            android:text="Settings"
                             android:layout_marginTop="5dp"
+                            android:text="Chat"
                             android:textSize="14sp" />
 
                     </RelativeLayout>
