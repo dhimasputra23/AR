@@ -8,7 +8,7 @@ import android.widget.RelativeLayout;
 
 public class Activity_Main extends AppCompatActivity {
 
-    RelativeLayout kpr, rumah, fasilitas, web, shareapp, kontak;
+    RelativeLayout kpr,ar_rumah, rumah, fasilitas, web, shareapp, kontak;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +18,7 @@ public class Activity_Main extends AppCompatActivity {
         kpr = findViewById(R.id.kpr);
         kontak = findViewById(R.id.kontak);
         rumah = findViewById(R.id.rumah);
+        ar_rumah = findViewById(R.id.ar_rumah);
         fasilitas = findViewById(R.id.fasilitas);
         shareapp = findViewById(R.id.shareapp);
         web = findViewById(R.id.web);
@@ -26,6 +27,14 @@ public class Activity_Main extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Activity_Main.this, com.halo.dashboardmenu.kpr.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+                startActivity(intent);
+            }
+        });
+        ar_rumah.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Activity_Main.this, com.halo.dashboardmenu.ar_rumah.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
                 startActivity(intent);
             }

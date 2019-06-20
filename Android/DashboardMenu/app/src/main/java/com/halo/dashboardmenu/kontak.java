@@ -8,6 +8,6 @@ public class kontak extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.kpr);
+        setContentView(R.layout.kontak);
     }
 }

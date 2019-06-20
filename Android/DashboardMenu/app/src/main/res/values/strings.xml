@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Aplikasi Rumah AR</string>
+
+    <string name="twitterUsername">\@kgroupcompany</string>
 </resources>

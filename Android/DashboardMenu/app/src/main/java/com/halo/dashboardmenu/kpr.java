@@ -8,6 +8,6 @@ public class kpr extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.rumah);
+        setContentView(R.layout.kpr);
     }
 }

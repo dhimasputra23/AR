@@ -8,6 +8,6 @@ public class web extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.kontak);
+        setContentView(R.layout.web);
     }
 }

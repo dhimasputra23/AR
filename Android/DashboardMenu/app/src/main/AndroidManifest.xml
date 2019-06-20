@@ -25,22 +25,25 @@
         </activity>
         <activity
             android:name=".kontak"
-            android:theme="@style/ThemeChat" />
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ar_rumah"
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".rumah"
-            android:theme="@style/ThemeGallery" />
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".fasilitas"
-            android:theme="@style/ThemeMap" />
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".shareapp"
-            android:theme="@style/ThemeWeather" />
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".web"
-            android:theme="@style/ThemeSettings" />
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".kpr"
-            android:theme="@style/ThemeFriends"></activity>
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
