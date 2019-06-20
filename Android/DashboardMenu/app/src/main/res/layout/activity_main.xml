@@ -47,7 +47,7 @@
                             android:adjustViewBounds="true"
                             android:padding="8dp"
                             android:scaleType="centerInside"
-                            android:src="@drawable/ic_users"
+                            android:src="@drawable/money"
                             android:tint="@color/white" />
 
                         <TextView
@@ -93,7 +93,7 @@
                             android:adjustViewBounds="true"
                             android:padding="8dp"
                             android:scaleType="centerInside"
-                            android:src="@drawable/ic_gallery"
+                            android:src="@drawable/camera"
                             android:tint="@color/white" />
 
                         <TextView
@@ -132,20 +132,20 @@
                         android:layout_centerInParent="true">
 
                         <ImageView
-                            android:id="@+id/imgView5"
+                            android:id="@+id/imgView3"
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:layout_centerHorizontal="true"
                             android:adjustViewBounds="true"
                             android:padding="8dp"
                             android:scaleType="centerInside"
-                            android:src="@drawable/ic_gallery"
+                            android:src="@drawable/house"
                             android:tint="@color/white" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_below="@+id/imgView5"
+                            android:layout_below="@+id/imgView3"
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="5dp"
                             android:text="Rumah"
@@ -170,20 +170,20 @@
                         android:layout_centerInParent="true">
 
                         <ImageView
-                            android:id="@+id/imgView6"
+                            android:id="@+id/imgView4"
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:layout_centerHorizontal="true"
                             android:adjustViewBounds="true"
                             android:padding="8dp"
                             android:scaleType="centerInside"
-                            android:src="@drawable/ic_map"
+                            android:src="@drawable/sofa"
                             android:tint="@color/white" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_below="@+id/imgView6"
+                            android:layout_below="@+id/imgView4"
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="5dp"
                             android:text="Fasilitas"
@@ -210,20 +210,20 @@
                         android:layout_centerInParent="true">
 
                         <ImageView
-                            android:id="@+id/imgView8"
+                            android:id="@+id/imgView5"
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:layout_centerHorizontal="true"
                             android:adjustViewBounds="true"
                             android:padding="8dp"
                             android:scaleType="centerInside"
-                            android:src="@drawable/ic_settings"
+                            android:src="@drawable/internet"
                             android:tint="@color/white" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_below="@+id/imgView8"
+                            android:layout_below="@+id/imgView5"
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="5dp"
                             android:text="Website"
@@ -256,20 +256,20 @@
                         android:layout_centerInParent="true">
 
                         <ImageView
-                            android:id="@+id/imgView7"
+                            android:id="@+id/imgView6"
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:layout_centerHorizontal="true"
                             android:adjustViewBounds="true"
                             android:padding="8dp"
                             android:scaleType="centerInside"
-                            android:src="@drawable/ic_weather"
+                            android:src="@drawable/share"
                             android:tint="@color/white" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_below="@+id/imgView7"
+                            android:layout_below="@+id/imgView6"
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="5dp"
                             android:text="Share Aplikasi"
@@ -294,20 +294,20 @@
                         android:layout_centerInParent="true">
 
                         <ImageView
-                            android:id="@+id/imgView3"
+                            android:id="@+id/imgView7"
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:layout_centerHorizontal="true"
                             android:adjustViewBounds="true"
                             android:padding="8dp"
                             android:scaleType="centerInside"
-                            android:src="@drawable/ic_chat"
+                            android:src="@drawable/contact"
                             android:tint="@color/white" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_below="@+id/imgView3"
+                            android:layout_below="@+id/imgView7"
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="5dp"
                             android:text="Kontak"
