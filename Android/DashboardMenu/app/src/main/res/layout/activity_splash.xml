@@ -7,22 +7,22 @@
 
     <ImageView
         android:id="@+id/imgView1"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_centerHorizontal="true"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_centerInParent="true"
         android:adjustViewBounds="true"
-        android:padding="8dp"
         android:scaleType="centerInside"
         android:src="@drawable/circled_k"
-        android:tint="@color/darkblue_dark" />
+        android:tint="@color/colorPrimary" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@id/imgView1"
         android:layout_centerInParent="true"
         android:text="Selamat datang"
         android:textStyle="bold"
         android:textColor="@color/colorPrimary"
-        android:textSize="30sp" />
+        android:textSize="40sp" />
 
 </RelativeLayout>
