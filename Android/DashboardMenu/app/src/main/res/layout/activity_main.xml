@@ -121,7 +121,7 @@
                     android:id="@+id/rumah"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="0.33"
+                    android:layout_weight="0.50"
                     android:background="@color/blue"
                     android:clickable="true"
                     android:foreground="?attr/selectableItemBackground">
@@ -159,7 +159,7 @@
                     android:id="@+id/fasilitas"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="0.33"
+                    android:layout_weight="0.50"
                     android:background="@color/darkblue"
                     android:clickable="true"
                     android:foreground="?attr/selectableItemBackground">
@@ -195,43 +195,7 @@
 
                 </RelativeLayout>
 
-                <RelativeLayout
-                    android:id="@+id/web"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="0.33"
-                    android:background="@color/blue"
-                    android:clickable="true"
-                    android:foreground="?attr/selectableItemBackground">
 
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_centerInParent="true">
-
-                        <ImageView
-                            android:id="@+id/imgView5"
-                            android:layout_width="60dp"
-                            android:layout_height="60dp"
-                            android:layout_centerHorizontal="true"
-                            android:adjustViewBounds="true"
-                            android:padding="8dp"
-                            android:scaleType="centerInside"
-                            android:src="@drawable/internet"
-                            android:tint="@color/white" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_below="@+id/imgView5"
-                            android:layout_centerHorizontal="true"
-                            android:layout_marginTop="5dp"
-                            android:text="Website"
-                            android:textSize="24sp" />
-
-                    </RelativeLayout>
-
-                </RelativeLayout>
 
             </LinearLayout>
 
@@ -283,7 +247,7 @@
                     android:id="@+id/kontak"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="0.55"
+                    android:layout_weight="0.50"
                     android:background="@color/darkblue"
                     android:clickable="true"
                     android:foreground="?attr/selectableItemBackground">

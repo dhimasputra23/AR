@@ -38,7 +38,7 @@ public class Activity_Main extends AppCompatActivity {
         ar_rumah = findViewById(R.id.ar_rumah);
         fasilitas = findViewById(R.id.fasilitas);
         shareapp = findViewById(R.id.shareapp);
-        web = findViewById(R.id.web);
+
 
         kpr.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -88,13 +88,6 @@ public class Activity_Main extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        web.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(Activity_Main.this, com.halo.dashboardmenu.web.class);
-                intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
-                startActivity(intent);
-            }
-        });
+
     }
 }

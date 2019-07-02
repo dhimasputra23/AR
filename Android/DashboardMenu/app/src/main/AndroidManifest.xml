@@ -40,9 +40,6 @@
             android:name=".shareapp"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".web"
-            android:theme="@style/AppTheme" />
-        <activity
             android:name=".kpr"
             android:theme="@style/AppTheme"></activity>
     </application>
